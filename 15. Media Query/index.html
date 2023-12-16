@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+  <title>Document</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+      body {
+        background-color: red;
+      }
+    }
+
+    @media (min-width:400px) and (max-width: 500px){
+      body{
+        background-color: rgb(247, 124, 124);
+      }
+    }
+    
+
+    @media (min-width: 500px) and (max-width: 600px) {
+      body {
+        background-color: lightyellow;
+      }
+    }
+    @media (min-width: 600px) and (max-width: 700px) {
+      body {
+        background-color: yellow;
+      }
+    }
+
+    @media (min-width:700px) and (max-width: 800px){
+      body{
+        background-color: lightgreen;
+      }
+    }
+    
+
+    @media (min-width: 800px) and (max-width: 900px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+
+    @media (min-width: 900px) {
+      body {
+        background-color: green;
+      }
+    }
+  </style>
+</head>
+
+<body>
+</body>
+
+</html>
