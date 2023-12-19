@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(9, 2, 105);
+}
+
+h1{
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.title{
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.user{
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: blueviolet;
+}
+
+img{
+  width: 25%;
+  
+}
